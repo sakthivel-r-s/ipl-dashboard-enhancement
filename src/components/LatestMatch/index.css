@@ -1,0 +1,39 @@
+.latest-card-container {
+  background-color: #1e293b;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family: Bree Serif;
+  padding: 20px;
+}
+
+.latest-left-container {
+  width: 40%;
+  text-align: left;
+}
+.latest-team-name {
+  font-size: 30px;
+}
+.latest-date {
+  font-size: 24px;
+}
+.latest-venue-result {
+  font-size: 16px;
+}
+.latest-image-container {
+  width: 20%;
+}
+.latest-competingTeam {
+  width: 100%;
+}
+.latest-right-container {
+  width: 40%;
+  text-align: right;
+}
+.latest-title {
+  font-size: 20px;
+}
+.latest-content {
+  font-size: 16px;
+}

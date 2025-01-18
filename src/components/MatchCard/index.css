@@ -1,0 +1,34 @@
+.recent-list-item-container {
+  width: 23%;
+  list-style-type: none;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #1e293b;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+}
+.recent-team-logo {
+  width: 100%;
+}
+.recent-tema-name {
+  font-size: 24px;
+}
+.recent-result {
+  font-size: 20px;
+  font-weight: 600;
+}
+.recent-march-status {
+  font-size: 20px;
+}
+.green {
+  color: #18ed66;
+}
+.red {
+  color: #e31a1a;
+}
