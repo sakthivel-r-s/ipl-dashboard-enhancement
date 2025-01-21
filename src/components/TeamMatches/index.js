@@ -1,8 +1,12 @@
 import {Component} from 'react'
 import Loader from 'react-loader-spinner'
+import {Link} from 'react-router-dom'
+
+import {FaArrowLeft} from 'react-icons/fa6'
 
 import LatestMatch from '../LatestMatch'
 import MatchCard from '../MatchCard'
+import PiechartItem from '../PiechartItem'
 
 import './index.css'
 
@@ -84,7 +88,17 @@ class TeamMatches extends Component {
       </div>
     ) : (
       <div className={bgUrl}>
+        <Link to="/" className="link-item">
+          <button className={`back-button bg-${id}`} type="button">
+            <FaArrowLeft size={16} style={{marginRight: '5px'}} />
+            Back
+          </button>
+        </Link>
         <img className="team-banner" src={teamBannerUrl} alt="team banner" />
+        <PiechartItem
+          latestMatchDetails={latestMatchDetails}
+          recentMatches={recentMatches}
+        />
         <p className="latest-match">Latest Matches</p>
         <LatestMatch
           key={latestMatchDetails.id}
